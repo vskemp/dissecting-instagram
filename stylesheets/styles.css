@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    outline: 1px solid red;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+
+.sidebar-header > * {
+    /*  "*" selects EVERYTHING */
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.profile-pic {
+    background-image: url(../images/download.png);
+    background-size: cover;
+    /* background-size: cover keeps the aspect ration, but resizes to fit */
+    width: 32px;
+    height: 32px;
+    
+}
+
+.follow-link {
+    color: #3897f0; 
+    text-decoration: none;
+}
+
+.username {
+    display: inline-block;
+}
+
+.dot-dot-dot {
+    float: right;
+    color: black;
+    margin: 5px 15px 0 0;
+}
+
+.comments-section .username {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.posted-when {
+    color: grey;
+}
+
+.action-icons > a {
+    color: black;
+}
+
+.far.fa-bookmark {
+    float: right;
+    margin-right: 15px;
+}
+
+.date {
+    color: grey;
+}
